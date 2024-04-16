@@ -1,6 +1,7 @@
 DATASET/
 __pycache__/
 venv/
+.DS_Store
 .idea/
 *.pyc
 *.pkl
