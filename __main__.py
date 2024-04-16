@@ -4,6 +4,7 @@ from field_extracting.extracting import Extractor
 
 
 def main():
+
     with open("DATASET/input/cakephp_Note_Request.json") as f:
         cakephp_note = json.load(f)
 
