@@ -1,0 +1,603 @@
+{
+  "basicDetails": {
+    "encounterId": 60,
+    "clinicAppointmentId": 142305751203930,
+    "FIRSTNAME": "test",
+    "LASTNAME": "patient144",
+    "MRN": "142305749958657",
+    "DOB": "1969-12-31",
+    "GENDER": "FEMALE",
+    "SSN": "XXX-XX-XXXX",
+    "DOCTORNAME": "141406576377858|140808266448900",
+    "RACE": "",
+    "preferredPharmacy": "",
+    "dateOfService": "2024-03-15 14:48",
+    "TIMEZONE": "CST",
+    "typeOfService": "Office or Other Outpatient Services",
+    "appointmentTime": "2024-03-16 09:00"
+  },
+  "insuranceDetails": {
+    "insuranceType": "",
+    "subscriberName": "",
+    "identificationNumber": "",
+    "groupNumber": "",
+    "insuranceCompany": ""
+  },
+  "medicalDetails": {
+    "cc": [
+      "NONE"
+    ],
+    "hpi": [
+      "Test is a 0 y.o. female here for a routine follow up.Denies seeking care at the ED. Denies current smoking. "
+    ],
+    "cc/HPI": "Test is a 0 y.o. female coming in for a first visit.",
+    "advanced_directive": {
+      "acp_status": "",
+      "proxy": ""
+    },
+    "immunizationHx": [
+      ""
+    ],
+    "treatment": "",
+    "meds": [],
+    "pmh": [
+      ""
+    ],
+    "sh": [
+      "denies current smoking, denies past smoking, denies current EtOH, denies past EtOH, denies IDU, denies past drug use, denies current tobacco use, denies past tobacco use, denies current IDU, denies past IDU. The patient marital status is single. The patient best follow living situation is lives at home with others. "
+    ],
+    "psh": [
+      ""
+    ],
+    "fh": [
+      "F - diabetes type 2"
+    ],
+    "all": [
+      ""
+    ],
+    "gynHx": [
+      {
+        "lmp": "LMP  not provided",
+        "paps": "Last pap none provided, not regular",
+        "sti": "",
+        "biopsy_result": "",
+        "breast": "",
+        "bcm": "",
+        "ObHx": "Not currently pregnant",
+        "tempp": ""
+      }
+    ],
+    "ros": [
+      "Cardiovascular: none provided",
+      "Constitutional: none provided",
+      "HEENT: none provided",
+      "Musculoskeletal: none provided",
+      "Hematologic/Lymphatic:: none provided",
+      "Respiratory: none provided",
+      "Neurological: none provided",
+      "Gastrointestinal: none provided",
+      "Psychiatric: none provided",
+      "Immunologic: none provided",
+      "Integumentary: none provided",
+      "Genitourinary: none provided"
+    ],
+    "vitals": [
+      {
+        "BMI": [
+          "none provided"
+        ],
+        "GLU": [
+          "none provided"
+        ],
+        "BP": [
+          "none provided"
+        ],
+        "SPO2": [
+          "none provided"
+        ]
+      }
+    ],
+    "glucoseLog": [
+      "none provided"
+    ],
+    "bpLog": [
+      "none provided"
+    ],
+    "peakFlowLog": [
+      "none provided"
+    ],
+    "assessments": [
+      {
+        "context_of_care": {
+          "Why did you choose to come to Elevate Health?": "d",
+          "What expectations do you have of us as your healthcare provider?": "d",
+          "What expectations do you have for this first visit?": "d",
+          "What long-term expectations do you have for your work with us?": "d",
+          "What is your present level of commitment to address any underlying causes of your signs and symptoms that relate to your lifestyle?": "d",
+          "What behaviors or lifestyle habits do you currently engage in regularly that you believe support your health?": "d",
+          "What behaviors or lifestyle habits do you currently engage in regularly that you believe do NOT support your health?": "d",
+          "What potential obstacle do you foresee in addressing your health goals?": "d",
+          "Who in your life is a support to you and will be a resource as you work to achieve your health goals?": "d",
+          "What do you love to do?": "d"
+        },
+        "wheel_of_balance": {
+          "Physical environment": "20%",
+          "Family & friends": "20%",
+          "Personal growth": "30%",
+          "Fun & recreation": "20%",
+          "Career": "40%",
+          "Money": "30%",
+          "Health": "20%",
+          "Significant other/Romance": "30%"
+        }
+      }
+    ],
+    "finalPatientSymptomsComments": [
+      ""
+    ],
+    "BASICDETAILS": {
+      "encounterId": 60,
+      "clinicAppointmentId": 142305751203930,
+      "FIRSTNAME": "test",
+      "LASTNAME": "patient144",
+      "MRN": "142305749958657",
+      "DOB": "1969-12-31",
+      "GENDER": "FEMALE",
+      "SSN": "XXX-XX-XXXX",
+      "DOCTORNAME": "141406576377858|140808266448900",
+      "RACE": "",
+      "preferredPharmacy": "",
+      "dateOfService": "2024-03-15 14:48",
+      "TIMEZONE": "CST",
+      "typeOfService": "Office or Other Outpatient Services",
+      "appointmentTime": "2024-03-16 09:00"
+    },
+    "CC": [
+      "none provided"
+    ],
+    "CCDURATION": [],
+    "VISIT_REASON": "New Patient",
+    "SYMPTOMS": [
+      ""
+    ],
+    "SPECIALISTS": "",
+    "PREGSTATUS": "Denies pregnancy",
+    "PERIODSTATUS": "",
+    "LMP": "march 11",
+    "PERFLOW": "5 day flow duration",
+    "PERCYCLE": "30 day cycles",
+    "PERREG": "irregular",
+    "MENARCHE": null,
+    "LASTPAP": "Last pap 2022",
+    "PAPNORMAL": "Unremarkable",
+    "MAMMO": "Last mammo 2017",
+    "weight": "",
+    "height": "",
+    "LASTPCP": "",
+    "LASTPHYSICAL": "",
+    "HEALTHGOALS": "",
+    "INTPROVIDERS": "Dr. Noelle Butler",
+    "EXTPROVIDERS": "john smith",
+    "FAMILYPATIENT": "jane doe",
+    "CURRURI": "Positive for current URI sx",
+    "PARENTLIVESTATUS": "Both parents are still living",
+    "MOTHERDEATHAGE": "",
+    "MOTHERDEATHREASON": "",
+    "FATHERDEATHAGE": "",
+    "FATHERDEATHREASON": "",
+    "CURRWEIGHT": "144",
+    "PREVWEIGHT1YR": "148",
+    "MAXWEIGHT": "149",
+    "RELIGION": "Buddhist",
+    "EMPLOYER": "valhalla",
+    "WORKHOURSWK": "50",
+    "PMH_elevate": "None of these",
+    "CHILDHOODINFX": "Diptheria",
+    "IMAGETEST": "None of these",
+    "IMAGETESTYR": "",
+    "PROCSURG": "",
+    "PROCSURGYR": "",
+    "DAYENERGYBEST": "Morning",
+    "DAYENERGYWORST": "Evening",
+    "TV": "3",
+    "READ": "No",
+    "HEALTHRATE4WKS": "",
+    "SEXACTIVESTATUS": "",
+    "MEALSPERDAY": "2",
+    "SOCIALLIFERATE": "Fair",
+    "TRANSMODES": "",
+    "TROUBLEDRIVING": "",
+    "HEALTHMANAGECONF": "",
+    "ASSISTACCESS": "",
+    "LUNGCASCREEN": "",
+    "AAASCREEN": "",
+    "DEXA": "",
+    "HOBBIES": "reading",
+    "TOBACQUITLVL": "",
+    "INTHOSP": "",
+    "INTPSH": "",
+    "DVHOME": "negative - feels safe at home",
+    "DVRELATION": "negative - feels safe in relationship",
+    "TDAP": "",
+    "SHINGLES": "",
+    "COVIDSHOTSTATUS": "",
+    "COVIDSHOTDOSES": "",
+    "COVIDSHOTTYPE": "",
+    "COVIDSHOTLASTDOSE": "",
+    "CURRVAPE": "Denies vaping",
+    "PETS": "None",
+    "FIREARMSSTORE": "",
+    "SEATBELTUSE": "",
+    "SMOKEDETECTCHECK": "",
+    "CODETECTORS": "",
+    "PREVHEALTHSCREENS": "None of the above",
+    "PREVHEALTHSCREENS_DETAILS": [],
+    "EXERCISE": "Denies exercise",
+    "ANEXERCISE": "",
+    "CARDIO": "",
+    "EXRCSEAMT": "",
+    "EXRCSLGTH": "",
+    "DIET": "No Special Diet",
+    "CAFFBEV": "Denies caffeine",
+    "CAFFBEVTYPE": "",
+    "COFFEE": "",
+    "ENERDRINK": "",
+    "TEA": "",
+    "OCCUPATION": "engineer",
+    "FIREARMS": "",
+    "PMH_": "",
+    "HOSP": "",
+    "HOSPFREQ": "1 past hospitalizations",
+    "HOSPDATE": "2020",
+    "HOSPREASON": "heart attack",
+    "PSH_": "back surgery",
+    "COLONOSCOPY10YR": "",
+    "COLONSCOPYLASTYR": "",
+    "MEDS": [],
+    "DIAGNOSES": [
+      "NONE"
+    ],
+    "PERTPOSPMH": [
+      "NONE"
+    ],
+    "PERTNEGPMH": [
+      "HTN",
+      "CAD",
+      "COPD",
+      "ASTHMA",
+      "DM",
+      "History of MIs",
+      "History of strokes",
+      "Hx of blood clots"
+    ],
+    "PERTPOSFH": {
+      "DM": {
+        "MEMBER": {
+          "0": "father",
+          "DMTYPE": {
+            "father": "Type 2"
+          }
+        }
+      }
+    },
+    "PERTNEGFH": [
+      "CA",
+      "CAD",
+      "HLD",
+      "HTN",
+      "PVD"
+    ],
+    "DMTYPE": "",
+    "REFERPROVIDER": "none provided",
+    "ACPSTATUS": "",
+    "PROXY": "",
+    "WATERFREQ": "",
+    "DECAFSODAFREQ": "",
+    "CAFSODAFREQ": "",
+    "JUICEFREQ": "",
+    "CAFTEAFREQ": "",
+    "DECAFTEAFREQ": "",
+    "SMOOTHIEFREQ": "",
+    "MILKFREQ": "",
+    "ENERGYLVL": "",
+    "SUBJAGE": "",
+    "MARITAL": "Single",
+    "LIVE": "lives at home with others",
+    "FLU": "",
+    "PNEUMO": "",
+    "PNEUMODATE": "",
+    "CC/HPI": "none provided",
+    "CHRONCOND": {
+      "ASTHMA": [
+        "none provided"
+      ],
+      "COPD": {
+        "EXACERB": {
+          "EDVISIT": "Denies ED visits for COPD"
+        },
+        "CSMOKE": "Denies current smoking",
+        "PERTPOS": "",
+        "PERTNEG": "",
+        "SIGFH": [],
+        "SIGPMH": []
+      },
+      "CAD": [
+        "none provided"
+      ],
+      "HTN": [
+        "none provided"
+      ],
+      "DM": [
+        "none provided"
+      ],
+      "HYPOTHYROIDISM": [
+        "none provided"
+      ]
+    },
+    "SEXHIST": {
+      "SEXORIENT": "",
+      "SEXATTRACT": "",
+      "GENDERSEX": "",
+      "SEXROUTES": "",
+      "ROUTECONDOM": "",
+      "UNPROTSEX": "",
+      "PRIMSEXPART": "",
+      "CASSEXPART": "",
+      "HIVTEST": "",
+      "HIVRESULT": "",
+      "STD": "",
+      "STDDATE": "",
+      "STDTX": "",
+      "STDPARTINF": "",
+      "STDPEDSPARENT": ""
+    },
+    "COVID19_SCREENING": [
+      "none provided"
+    ],
+    "FORMS": {
+      "General": {
+        "Do you have any symptom complaints you would like to talk to your doctor about today?": "No",
+        "Do you currently take any of the following medication? (select all that apply)": [
+          "Thyroid medication",
+          "Hormone replacement"
+        ],
+        "Do you see any other providers at our clinic?": "Yes",
+        "Please select any of the following providers you see at Elevate Health:": [
+          "Dr. Noelle Butler"
+        ],
+        "Do you see any other medical providers outside our clinic?": "Yes",
+        "Please provide their names and specialty:": "john smith",
+        "Are any of your family members already a patient at our clinic?": "Yes",
+        "Please provide the family member name:": "jane doe",
+        "Are you currently experiencing any flu-like symptoms?": "Yes",
+        "Are you currently pregnant?": "No",
+        "Do you currently have periods?": "Yes",
+        "Last period start date:": "march 11",
+        "Flow Duration(in days):": "5",
+        "Cycle Length(in days):": "30",
+        "Are your cycles regular?": "No",
+        "When was your last pap smear?": "2022",
+        "What was the result?": "Normal",
+        "When was your last mammogram?": "2017"
+      },
+      "Medical History": {
+        "Do you exercise?": "No",
+        "Which of the following diets are you currently on to manage your condition?": [
+          "No Special Diet"
+        ],
+        "Do you drink caffeine (coffee, soda, energy drinks) on a daily basis?": "No",
+        "What do you currently do for work?": "engineer",
+        "Have you been hospitalized before?": "Yes",
+        "How many times have you been hospitalized?": "1",
+        "When were you admitted into the hospital?": "2020",
+        "What was the reason you were admitted to the hospital for?": "heart attack",
+        "Have you had any surgeries before?": "Yes",
+        "Which surgeries?": "back surgery",
+        "Do you currently drink alcohol containing beverages?": "No",
+        "Do you currently vape or use e-cigarettes?": "No",
+        "Do you have any pets?": "No",
+        "Have you ever had any of the following health screenings? (select all that apply)": [
+          "None of the above"
+        ],
+        "Do you feel safe at home?": "Yes",
+        "Do you feel safe in your relationship?": "Yes",
+        "How many meals do you eat a day?": "2",
+        "How would you describe your Social Life?": "Fair",
+        "What are some of your main interests and hobbies?": "reading",
+        "Do you currently smoke or use any other tobacco products?": "No",
+        "What kind of tobacco products do you currently used?": {
+          "amount": []
+        },
+        "Did you used to smoke or use any other tobacco products in the past?": "No",
+        "What kind of tobacco products do you used in the past?": {
+          "amount": [],
+          "year": []
+        },
+        "Have you used any street drugs in the past 30 days?": "No",
+        "Have you ever used any street drugs before?": "No",
+        "Which of the following best describe your parents living status?": "Both parents are still living",
+        "About how much to you currently weigh? (pounds)": "144",
+        "About how much did you weigh 1 YEAR ago? (pounds)": "148",
+        "What was the highest weight you have EVER been? (pounds)": "149",
+        "Which of the following best describes your religious and/or spiritual practices?": "Buddhist",
+        "Who is your current employer?": "valhalla",
+        "About how many hours do you work each week? (hours)": "50",
+        "Have you been diagnosed with any of the following? (select all that apply):": [
+          "None of these"
+        ],
+        "Have you ever been sick with any of the following as a child? (select all that apply)": [
+          "Diptheria"
+        ],
+        "Have you had any of the following medical imaging or tests before? (select all that apply):": [
+          "None of these"
+        ],
+        "When during the day is your energy the best?": "Morning",
+        "When during the day is your energy the worst?": "Evening",
+        "Do you regularly watch TV?": "Yes",
+        "About how many hours each day (on average)?": "3",
+        "Do you read regularly?": "No",
+        "Diabetes": "Yes",
+        "Which type for": {
+          "father": "Type 2"
+        },
+        "What is your marital status?": "Single",
+        "Which of the follow best describes your living situation?": "lives at home with others",
+        "Heart attacks": "No",
+        "Strokes": "No",
+        "History of blood clots": "No"
+      },
+      "ROS": []
+    },
+    "ALL": [
+      ""
+    ],
+    "TREATMENT": "",
+    "PMH": [
+      ""
+    ],
+    "SH": [
+      {
+        "CURRENTSMOKE": "denies current smoking",
+        "PASTSMOKE": "denies past smoking",
+        "CURRETOH": "denies current EtOH",
+        "PASTETOH": "denies past EtOH",
+        "IDU": "denies IDU",
+        "PASTDRUG": "denies past drug use",
+        "CURRTOBAC": "denies current tobacco use",
+        "PASTTOBAC": "denies past tobacco use",
+        "CURRIDU": "denies current IDU",
+        "PASTIDU": "denies past IDU"
+      }
+    ],
+    "PSH": [
+      ""
+    ],
+    "FH": [
+      "F - diabetes type 2"
+    ],
+    "ASSESMENTS": [
+      {
+        "context_of_care": {
+          "Why did you choose to come to Elevate Health?": "d",
+          "What expectations do you have of us as your healthcare provider?": "d",
+          "What expectations do you have for this first visit?": "d",
+          "What long-term expectations do you have for your work with us?": "d",
+          "What is your present level of commitment to address any underlying causes of your signs and symptoms that relate to your lifestyle?": "d",
+          "What behaviors or lifestyle habits do you currently engage in regularly that you believe support your health?": "d",
+          "What behaviors or lifestyle habits do you currently engage in regularly that you believe do NOT support your health?": "d",
+          "What potential obstacle do you foresee in addressing your health goals?": "d",
+          "Who in your life is a support to you and will be a resource as you work to achieve your health goals?": "d",
+          "What do you love to do?": "d"
+        },
+        "wheel_of_balance": {
+          "Physical environment": "20%",
+          "Family & friends": "20%",
+          "Personal growth": "30%",
+          "Fun & recreation": "20%",
+          "Career": "40%",
+          "Money": "30%",
+          "Health": "20%",
+          "Significant other/Romance": "30%"
+        }
+      }
+    ],
+    "ROS": {
+      "Cardiovascular": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Constitutional": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "HEENT": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Musculoskeletal": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Hematologic/Lymphatic": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Respiratory": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Neurological": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Gastrointestinal": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Psychiatric": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Immunologic": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Integumentary": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      },
+      "Genitourinary": {
+        "positive": [
+          ""
+        ],
+        "negative": [
+          ""
+        ]
+      }
+    }
+  }
+}

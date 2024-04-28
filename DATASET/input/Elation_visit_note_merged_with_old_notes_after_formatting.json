@@ -1,0 +1,567 @@
+{
+    "bullets": [
+        {
+            "category": "Reason",
+            "text": "New Patient",
+            "version": 1,
+            "sequence": 0,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Problem",
+            "text": "Positive for current URI sx",
+            "version": 1,
+            "sequence": 0,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Past",
+            "text": "Diptheria",
+            "version": 1,
+            "sequence": 0,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Social",
+            "text": "Social Life: Fair",
+            "version": 1,
+            "sequence": 0,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Family",
+            "text": "F - diabetes type 2",
+            "version": 1,
+            "sequence": 0,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Surgical",
+            "text": "back surgery",
+            "version": 1,
+            "sequence": 0,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Data",
+            "text": "DV Screen: negative - feels safe at home, negative - feels safe in relationship",
+            "version": 1,
+            "sequence": 0,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Habits",
+            "text": "ETOH: denies current EtOH,denies past EtOH",
+            "version": 1,
+            "sequence": 0,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Problem",
+            "text": "Weight History",
+            "version": 1,
+            "sequence": 1,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": [
+                {
+                    "category": "Problem",
+                    "text": "Current weight: 144",
+                    "version": 1,
+                    "sequence": 0,
+                    "author": 6901,
+                    "updated_date": "2024-03-23T07:09:47",
+                    "replaced_by_edit": null,
+                    "replaced_by": null,
+                    "edit": null,
+                    "deleted_date": null,
+                    "note_document": null,
+                    "note_item": null,
+                    "handout": null
+                },
+                {
+                    "category": "Problem",
+                    "text": "Weight 1 yr ago: 148",
+                    "version": 1,
+                    "sequence": 1,
+                    "author": 6901,
+                    "updated_date": "2024-03-23T07:09:47",
+                    "replaced_by_edit": null,
+                    "replaced_by": null,
+                    "edit": null,
+                    "deleted_date": null,
+                    "note_document": null,
+                    "note_item": null,
+                    "handout": null
+                },
+                {
+                    "category": "Problem",
+                    "text": "Maximum weight: 149",
+                    "version": 1,
+                    "sequence": 2,
+                    "author": 6901,
+                    "updated_date": "2024-03-23T07:09:47",
+                    "replaced_by_edit": null,
+                    "replaced_by": null,
+                    "edit": null,
+                    "deleted_date": null,
+                    "note_document": null,
+                    "note_item": null,
+                    "handout": null
+                }
+            ]
+        },
+        {
+            "category": "Social",
+            "text": "Living situation: lives at home with others",
+            "version": 1,
+            "sequence": 1,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Family",
+            "text": "Both parents are still living",
+            "version": 1,
+            "sequence": 1,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Data",
+            "text": "Context of Care and Wheel of Balance assessments completed and filed under reports",
+            "version": 1,
+            "sequence": 1,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Habits",
+            "text": "Tobacco: denies current tobacco use. denies past tobacco use.",
+            "version": 1,
+            "sequence": 1,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Social",
+            "text": "Pets: None",
+            "version": 1,
+            "sequence": 2,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Problem",
+            "text": "OB\/GYN History",
+            "version": 1,
+            "sequence": 2,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": [
+                {
+                    "category": "Problem",
+                    "text": "Denies pregnancy",
+                    "version": 1,
+                    "sequence": 0,
+                    "author": 6901,
+                    "updated_date": "2024-03-23T07:09:47",
+                    "replaced_by_edit": null,
+                    "replaced_by": null,
+                    "edit": null,
+                    "deleted_date": null,
+                    "note_document": null,
+                    "note_item": null,
+                    "handout": null
+                },
+                {
+                    "category": "Problem",
+                    "text": "Last mammo 2017",
+                    "version": 1,
+                    "sequence": 1,
+                    "author": 6901,
+                    "updated_date": "2024-03-23T07:09:47",
+                    "replaced_by_edit": null,
+                    "replaced_by": null,
+                    "edit": null,
+                    "deleted_date": null,
+                    "note_document": null,
+                    "note_item": null,
+                    "handout": null
+                }
+            ]
+        },
+        {
+            "category": "Habits",
+            "text": "Rec Drugs: denies current IDU, denies past IDU",
+            "version": 1,
+            "sequence": 2,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Social",
+            "text": "Occupation: engineer at valhalla; works 50 hours\/wk",
+            "version": 1,
+            "sequence": 3,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Habits",
+            "text": "Vape: Denies vaping",
+            "version": 1,
+            "sequence": 3,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Social",
+            "text": "Marital Status: Single",
+            "version": 1,
+            "sequence": 4,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Habits",
+            "text": "TV: 3 hours\/wk",
+            "version": 1,
+            "sequence": 4,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Social",
+            "text": "Religion: Buddhist",
+            "version": 1,
+            "sequence": 5,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Habits",
+            "text": "Reading: No hours\/wk",
+            "version": 1,
+            "sequence": 5,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Habits",
+            "text": "Hobbies: reading",
+            "version": 1,
+            "sequence": 6,
+            "author": 6901,
+            "updated_date": "2024-03-23T07:09:47",
+            "replaced_by_edit": null,
+            "replaced_by": null,
+            "edit": null,
+            "deleted_date": null,
+            "note_document": null,
+            "note_item": null,
+            "handout": null,
+            "children": []
+        },
+        {
+            "category": "Problem",
+            "text": "Positive for current URI sx"
+        },
+        {
+            "category": "Problem",
+            "text": "Weight History",
+            "children": [
+                {
+                    "category": "Problem",
+                    "text": "Current weight: 144"
+                },
+                {
+                    "category": "Problem",
+                    "text": " Weight 1 yr ago: 148"
+                },
+                {
+                    "category": "Problem",
+                    "text": "Maximum weight: 149"
+                }
+            ]
+        },
+        {
+            "category": "Past",
+            "text": "Diptheria"
+        },
+        {
+            "category": "Social",
+            "text": "Social Life: Fair"
+        },
+        {
+            "category": "Social",
+            "text": "Living situation: lives at home with others"
+        },
+        {
+            "category": "Social",
+            "text": "Pets: None"
+        },
+        {
+            "category": "Social",
+            "text": "Occupation: engineer at valhalla; works 50 hours\/wk"
+        },
+        {
+            "category": "Social",
+            "text": "Marital Status: Single"
+        },
+        {
+            "category": "Social",
+            "text": "Religion: Buddhist"
+        },
+        {
+            "category": "Family",
+            "text": "F - diabetes type 2"
+        },
+        {
+            "category": "Family",
+            "text": "Both parents are still living"
+        },
+        {
+            "category": "Surgical",
+            "text": "back surgery"
+        },
+        {
+            "category": "Problem",
+            "text": "OB\/GYN History",
+            "children": [
+                {
+                    "category": "Problem",
+                    "text": "Denies pregnancy"
+                },
+                {
+                    "category": "Problem",
+                    "text": "Last mammo 2017"
+                }
+            ]
+        },
+        {
+            "category": "Data",
+            "text": "DV Screen: negative - feels safe at home, negative - feels safe in relationship"
+        },
+        {
+            "category": "Data",
+            "text": "Context of Care and Wheel of Balance assessments completed and filed under reports"
+        },
+        {
+            "category": "Habits",
+            "text": "ETOH: denies current EtOH,denies past EtOH"
+        },
+        {
+            "category": "Habits",
+            "text": "Tobacco: denies current tobacco use. denies past tobacco use."
+        },
+        {
+            "category": "Habits",
+            "text": "Rec Drugs: denies current IDU, denies past IDU"
+        },
+        {
+            "category": "Habits",
+            "text": "Vape: Denies vaping"
+        },
+        {
+            "category": "Habits",
+            "text": "TV: 3 hours\/wk"
+        },
+        {
+            "category": "Habits",
+            "text": "Reading: No hours\/wk"
+        },
+        {
+            "category": "Habits",
+            "text": "Hobbies: reading"
+        }
+    ],
+    "type": "Office Visit Note",
+    "template": "Complete H&P (2 col)",
+    "patient": 142305749958657,
+    "physician": "141406576377858",
+    "document_date": "2024-03-25T18:54:23Z",
+    "chart_date": "2024-03-16T09:00:00.000000Z"
+}

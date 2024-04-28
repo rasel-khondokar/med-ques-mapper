@@ -1,0 +1,116 @@
+{
+    "bullets": [
+        {
+            "category": "Problem",
+            "text": "Positive for current URI sx"
+        },
+        {
+            "category": "Problem",
+            "text": "Weight History",
+            "children": [
+                {
+                    "category": "Problem",
+                    "text": "Current weight: 144"
+                },
+                {
+                    "category": "Problem",
+                    "text": " Weight 1 yr ago: 148"
+                },
+                {
+                    "category": "Problem",
+                    "text": "Maximum weight: 149"
+                }
+            ]
+        },
+        {
+            "category": "Past",
+            "text": "Diptheria"
+        },
+        {
+            "category": "Social",
+            "text": "Social Life: Fair"
+        },
+        {
+            "category": "Social",
+            "text": "Living situation: lives at home with others"
+        },
+        {
+            "category": "Social",
+            "text": "Pets: None"
+        },
+        {
+            "category": "Social",
+            "text": "Occupation: engineer at valhalla; works 50 hours\/wk"
+        },
+        {
+            "category": "Social",
+            "text": "Marital Status: Single"
+        },
+        {
+            "category": "Social",
+            "text": "Religion: Buddhist"
+        },
+        {
+            "category": "Family",
+            "text": "F - diabetes type 2"
+        },
+        {
+            "category": "Family",
+            "text": "Both parents are still living"
+        },
+        {
+            "category": "Surgical",
+            "text": "back surgery"
+        },
+        {
+            "category": "Problem",
+            "text": "OB\/GYN History",
+            "children": [
+                {
+                    "category": "Problem",
+                    "text": "Denies pregnancy"
+                },
+                {
+                    "category": "Problem",
+                    "text": "Last mammo 2017"
+                }
+            ]
+        },
+        {
+            "category": "Data",
+            "text": "DV Screen: negative - feels safe at home, negative - feels safe in relationship"
+        },
+        {
+            "category": "Data",
+            "text": "Context of Care and Wheel of Balance assessments completed and filed under reports"
+        },
+        {
+            "category": "Habits",
+            "text": "ETOH: denies current EtOH,denies past EtOH"
+        },
+        {
+            "category": "Habits",
+            "text": "Tobacco: denies current tobacco use. denies past tobacco use."
+        },
+        {
+            "category": "Habits",
+            "text": "Rec Drugs: denies current IDU, denies past IDU"
+        },
+        {
+            "category": "Habits",
+            "text": "Vape: Denies vaping"
+        },
+        {
+            "category": "Habits",
+            "text": "TV: 3 hours\/wk"
+        },
+        {
+            "category": "Habits",
+            "text": "Reading: No hours\/wk"
+        },
+        {
+            "category": "Habits",
+            "text": "Hobbies: reading"
+        }
+    ]
+}

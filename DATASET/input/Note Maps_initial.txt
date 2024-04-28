@@ -1,0 +1,259 @@
+Note Maps Initial
+
+#PROD template -------------------------------------------------------------------------------#
+format_note_elation-initial								//"template": "Complete H&P (2 col)",
+Reason: [CC]										//"category": "Reason",
+Problem											//"category": "Problem",; Number bullets listing each of the ACTIVE diagnoses present only;
+{•}{Type 2 diabetes mellitus}{Type 1 diabetes mellitus}					//if diabetes ICD-10 code=true
+	•Dilated Eye Exam:
+	•Foot Exam:
+	•Microalbumin:
+	•A1c:
+	•Cholesterol:
+	•Vaccine:
+	•Diet:[DIET].
+	•Exercise: [ANEXERCISE], [CARDIO]. [EXRCSEAMT], [EXRCSLGTH].
+	•Glucose monitoring: [GLU]
+	•{[PERTPOS].}{[PERTNEG].}
+{•}{Hypertensive disorder}{}								//if HTN ICD-10 code=true
+	•EKG:
+	•Electrolytes, Hgb:
+	•Urine microalbumin:
+	•Blood pressure monitoring: [BPMONITOR]. {Readings ranged from [LOSBP]/[LODBP] to [HISBP]/[HIDBP].}
+	•{Managed with [MANAGE].}
+	•{[PERTPOS].}{[PERTNEG].}
+{•}{Asthma}{Mild intermittent asthma}							//if asthma ICD-10 code=true, Note: for test demo, let's just do asthma only
+	•Patient self-reports condition has [STATUS].
+	•{Managed with [MANAGE].}
+	•{Home peak flow measurements: [SPIRO].}
+	•[SXFREQ].
+	•[DAYSX].
+	•[NIGHTWAKE].
+	•[IMPACT].
+	•[SABAUSE].
+	•[OGCUSE].
+	•[EXACERB].{ [FREQ],[RESPONSE].}{ [EDVISIT].}{ [INTUBATE].}
+	•[SECSMOKE]
+	•{[PERTPOS].}{[PERTNEG].}							//only if COPD=true
+	•{[FLU],[PNEUM].}
+{•}{COPD}										
+	{•}{Patient self-reports condition has [STATUS].}
+	{•}{Managed with [MANAGE]}
+	{•}{SPO2 monitoring: [SPO2].}
+	{•}{[MMRCDS] severity per Modified Medical Research Council Dypsnea Scale}
+	{•}[IMPACT]
+	{•}[CURRTOBAC]. [PASTTOBAC].{ [PASTTOBACAMOUNT] [TOBACYEARS]}. [SECSMOKE]
+	{•}[EXACERB].{ [FREQ].} {[RESPONSE].{ [ABXTX], [OGCS].}{ [EDVISIT]}{, [ADMIT]}{, [LOS]}.
+	{•}{[PERTPOS].}{[PERTNEG].}
+	•{[FLU],[PNEUM].}
+{•}{Hypercholesterolemia}								//only if high cholesterol=true
+	{•}{Cholesterol:}
+	{•}{Managed with [MANAGE]}
+	{•}{[STATIN]}
+	•{[PERTPOS].}{[PERTNEG].}
+{•}{Hypothyroidism}									//if hypothyroidism ICD-10 code(s)=true
+	{•}{[LEVO]}
+	{•}{Patient self-reports symptoms have [STATUS].}
+	{•}{[THYROIDROS]}
+{•}{Back pain}{Abdominal pain}{Fatigue}{Chest pain}					//to simplify, assign each sentence of the HPI output text to its own child bullet
+	{•}{[DURATION]}
+	{•}{[LOCATION], described as [CHAR].}{[TEMP].}
+	{}{[PAINBEST], [PAINWORSE]}
+	{•}{[AGGREV]. [ALLEV].}
+	•{[PERTPOS].}{[PERTNEG].}
+{•}{Current tobacco use}								//only if current tobacco=true
+	{•}{[CURRTOBAC]. Uses [TOBACPROD]. [TOBACAMOUNT].}
+	{•}{Discussed:}
+	{•}{Smoking cessation intervention:}
+	{•}{Resources provided:}
+	{•}{Time spent on counseling:}
+{•}{Unhealthy alcohol use}								//only if UAU-SQS=2 or more
+	{•}{[UAUSQS] using single question screener}
+	{•}{Time spent on counseling:}
+{•}{Fall risk}										//only if STEADI=>4
+	{•}{Patient determined to be at risk for future falls per STEADI}
+	{•}{Beers criteria present:}
+	{•}{Home hazards identified:}
+	{•}{Vitamin D intake:}
+	{•}{Significant fall risk comorbidities identified:}
+	{•}{Time spent on counseling:}
+Allergy: 										//"category": "Allergies",
+	{•}{[ALL]}
+PMH:											//"category": "Past"
+	{•}{[PMH]}									//active AND inactive diagnoses present in "Problem"
+PSH: 											"category": "Surgical",
+	{•}{[PSH]}
+FH: {[FH]}										//"category": "Family"
+SH:											//"category": "Social"; pulled from initial logic inputs
+	•Occupation: [OCCUPATION]
+	•[MARITAL]:[LIVE]
+Habits:											//"category": "Habits",
+	•Caffeine: [CAFFEINE]
+	•Illicit drugs: [CURRIDU].[PASTIDU].
+	•Alcohol: [CURRETOH]. [PASTETOH]{ ETOHYEARS]}. {[UAUSQS].}
+	•Tobacco: [CURRTOBAC].{Curently [CURRTOBACAMOUNT].} [PASTTOBAC].{ [PASTTOBACAMOUNT] [TOBACYEARS]}. [SECSMOKE].
+Diet: [DIET].										//history object; "Diet",
+Exercise: [ANEXERCISE], [CARDIO]. [EXRCSEAMT], [EXRCSLGTH]. 				//history object; "Exercise",
+Meds:											//"category": "Med",
+	•[MEDS]
+ROS:											//"category": "ROS"
+	•General:
+	•Endoc: 
+	•Eyes:
+	•HENT:
+	•CVS:
+	•Resp:
+	•GI:
+	•GU:
+	•NS:
+	•MSS:
+	•Skin:
+	•Hemo:
+	•Psych:
+Instruments										//"category": "Instr"
+Objective										//"category": "Objective",
+Vitals:											//"category": "Vitals",
+PE:											//"category": "PE",
+Data:
+	{•}{Home Glucose Log: [GLUREAD] ([GLUDATE], [GLUTIMING])}
+	{•}{Home Blood Pressure Log:}{[BPREADINGS]}
+	{•}{Home Spirometry Log:}{[SPIROREAD]([SPIRODATE], [SPIROTIME])}
+	{•}{PHQ-4 = [PHQ4]}
+	{•}{Fall Assessment done}
+	{•}{Social Determinants = [SDOH]}
+	{•}{Modified Medical Research Council Dyspnea Scale}
+		{•Score: [MMRCDS]}
+		{•Result:}{Dypsnea only with strenuous exercise}{Dyspnea when hurrying on level ground or walking up a slight hill}{Walks slower than people of the same age because of dyspnea or has to stop for breath when walking at own pace}{Stops for breath after walking 100 yards (91 m) or after a few minutes}{Too dyspneic to leave house or breathless when dressing}
+	{•}{Unhealthy Alcohol Use Screening}
+		{•Result: [UAUSQS]}
+	{•}{Advance Care Plan}
+		{•}{[ACPSTATUS]}
+		{•}{Surrogate Decision Maker:}{[PROXY]}{[PROXYFNAME][PROXYLNAME], [PROXYRELATION], [PROXYPHONE]}
+Assessment										//"category": "Assessment",
+Plan											//"category": "Plan",
+Tests:											//"category": "Test",
+Tx:											//"category": "Tx",
+Follow-up										//"category": "Followup",
+
+
+#Infinity Family Care (New) -------------------------------------------------------------------------------#
+
+format_note_elation-initial								//"template": "Complete H&P (2 col)",
+Reason: [CC]										//"category": "Reason",
+Problem											//"category": "Problem",; Number bullets listing each of the ACTIVE diagnoses present only;
+{•}{OB/GYN History}
+	{•}[PREGSTATUS]
+	{•}[PERIODSTATUS]{[LMP], [PERCYCLE],[PERFLOW], [PERREG]}. [MENARCHE]
+	{•}[PAP], [PAPNORMAL]
+	{•}[MAMMO]
+{•}{Sexual Orientation & History}
+	{•}Patient identifies as [SEXORIENT]
+	{•}Sexually attracted to [SEXATTRACT]; has had sex with [GENDERSEX]
+	{•}Engages in [SEXROUTES] [ROUTECONDOM]
+	{•}[UNPROTSEX]
+	{•}[PRIMSEXPART], [CASSEXPART]
+	{•}[HIVTEST] [HIVRESULT]
+	{•}STD Hx: [STD]{ ([STDDATE]): [STDTX], [STDPARTINF] {, [STDPEDSPARENT]}}
+	
+{•}{Fall risk}										//only if STEADI=>4
+	{•}{Patient determined to be at risk for future falls per STEADI}
+	{•}{Beers criteria present:}
+	{•}{Home hazards identified:}
+	{•}{Vitamin D intake:}
+	{•}{Significant fall risk comorbidities identified:}
+	{•}{Time spent on counseling:}
+
+PMH:											//"category": "Past"
+	{•}{[PMH]}									//active AND inactive diagnoses present in "Problem"
+	{•}{[HOSP]}{[HOSPFREQ]
+PSH: 											"category": "Surgical",
+	{•}{[PSH]}
+FH: {[FH]}										//"category": "Family"
+SH:											//"category": "Social"; pulled from initial logic inputs
+	•Occupation: [OCCUPATION]
+	•[MARITAL]:[LIVE]
+	•[FIREARMS]
+Habits:											//"category": "Habits",
+Diet: [DIET]. [CAFFBEV]{[COFFEE], [ENERDRINK], [TEA]}.									//history object; "Diet",
+Exercise: [EXERCISE] {[ANEXERCISE], [CARDIO]. Exercises [EXRCSEAMT], approximately [EXRCSLGTH] per session}. 				//history object; "Exercise",
+Meds:											//"category": "Med",
+	•[MEDS]
+ROS:											//"category": "ROS"
+	•General:
+	•Endoc: 
+	•Eyes:
+	•HENT:
+	•CVS:
+	•Resp:
+	•GI:
+	•GU:
+	•NS:
+	•MSS:
+	•Skin:
+	•Hemo:
+	•Psych:
+Data:
+	{•}Specialists seen: [SPECIALISTS]
+	{•}{Home Glucose Log: [GLUREAD] ([GLUDATE], [GLUTIMING])}
+	{•}{Home Blood Pressure Log:}{[BPREADINGS]}
+	{•}{Home Spirometry Log:}{[SPIROREAD]([SPIRODATE], [SPIROTIME])}
+	{•}{PHQ-4 = [PHQ4]}
+	{•}{Fall Assessment done}
+	{•}{Social Determinants = [SDOH]}
+
+#Elevate-------------------------------------------------------------------------------#
+Reason: [CC]										//"category": "Reason",
+Problem											//"category": "Problem",; Number bullets listing each of the ACTIVE diagnoses present only;
+PMH:											//"category": "Past"
+	{•}{[PMH]}									//active AND inactive diagnoses present in "Problem"
+	{•}{[HOSP]}{[HOSPFREQ]
+PSH: 											"category": "Surgical",
+	{•}{[PSH]}
+FH: {[FH]}										//"category": "Family"
+	[PARENTLIVESTATUS]; [MOTHERDEATHAGE] ([MOTHERDEATHREASON]); [FATHERDEATHAGE] ([FATHERDEATHREASON])
+	
+SH:												//"category": "Social"; pulled from initial logic inputs
+	•Occupation: [OCCUPATION]
+	•[MARITAL]:[LIVE]
+	•Religion: []
+Habits:
+	{•}TV:
+	{•}Reading:										//"category": "Habits",
+Diet: [DIET]. [CAFFBEV]{[COFFEE], [ENERDRINK], [TEA]}.									//history object; "Diet",
+Exercise: [EXERCISE] {[ANEXERCISE], [CARDIO]. Exercises [EXRCSEAMT], approximately [EXRCSLGTH] per session}. 				//history object; "Exercise",
+Meds:											//"category": "Med",
+	•[MEDS]
+ROS:nbt/
+Data:8
+7770	•Current weight: [CURRWEIGHT] lbs
+	•Previous weight (1yr): [PREVWEIGHT1YR] lbs
+	•Maximum weight: [MAXWEIGHT] lbs
+
+#Infinty Health & Body-----------------------------------------------------------------#
+
+{•}{Goals of Care}
+	{•}Patient's most important goals are [GOALS]
+	{•}Readiness Level: [READINESSLVL]
+	{•}Motivation Level: [MOTIVLVL]
+	{•}Goal Support: [GOALSSUPORT]
+	{•}Prefers to exercise [EXERTIMEPREF]
+	{•}Number of sessions patient wants per week: [THERSESSIONS]
+{•}{Obstructive Sleep Apnea}
+	{•}[STOP-BANG]
+{•}{Erectile Dysfunction}
+	{•}[SHIM]
+
+
+
+SH:											//"category": "Social"; pulled from initial logic inputs
+	•Occupation: [OCCUPATION]; work activity level is [].
+Diet: [DIET].								//history object; "Diet",
+Exercise: [EXERCISE] {[ANEXERCISE], [CARDIO]. Exercises [EXRCSEAMT], approximately [EXRCSLGTH] per session}. 				//history object; "Exercise",
+Meds:											//"category": "Med",
+	•[MEDS]
+Data:
+	{•}{Home Glucose Log: [GLUREAD] ([GLUDATE], [GLUTIMING])}
+	{•}{Home Blood Pressure Log:}{[BPREADINGS]}
+	{•}{PHQ-9 = [PHQ9]}
+	{•}{Baseline SHIM Score: [SHIM]}
+	{•}{STOP-BANG: [STOPBANG]}

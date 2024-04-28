@@ -1,0 +1,152 @@
+[
+    {
+        "type": "Past",
+        "text": "Diptheria",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Social",
+        "text": "Social Life: Fair",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Social",
+        "text": "Living situation: lives at home with others",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Social",
+        "text": "Pets: None",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Social",
+        "text": "Occupation: engineer at valhalla; works 50 hours\/wk",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Social",
+        "text": "Marital Status: Single",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Social",
+        "text": "Religion: Buddhist",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Family",
+        "text": "F - diabetes type 2",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Family",
+        "text": "Both parents are still living",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Past Surgical",
+        "text": "back surgery",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Habits",
+        "text": "ETOH: denies current EtOH,denies past EtOH",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Habits",
+        "text": "Tobacco: denies current tobacco use. denies past tobacco use.",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Habits",
+        "text": "Rec Drugs: denies current IDU, denies past IDU",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Habits",
+        "text": "Vape: Denies vaping",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Habits",
+        "text": "TV: 3 hours\/wk",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Habits",
+        "text": "Reading: No hours\/wk",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Habits",
+        "text": "Hobbies: reading",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Functional Status",
+        "text": "Interests & Hobbies (in pt's own words): reading",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Functional Status",
+        "text": "Social Life: pt rates as Fair",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Diet",
+        "text": "No Special Diet. Denies caffeine.",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Diet",
+        "text": "2 meals per day",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Exercise",
+        "text": "Denies exercise",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Consultation",
+        "text": "Patient currently does not see any specialists",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Consultation",
+        "text": "Internal Provider : Dr. Noelle Butler",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Consultation",
+        "text": "External Provider : john smith",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Consultation",
+        "text": "Family patient : jane doe",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Health Maintenance",
+        "text": "None of the above completed",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Health Maintenance",
+        "text": "Mammo: Last mammo 2017",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Cognitive Status",
+        "text": "Energy is best in the morning",
+        "patient": 142305749958657
+    },
+    {
+        "type": "Cognitive Status",
+        "text": "Energy is worst in the evening",
+        "patient": 142305749958657
+    }
+]
